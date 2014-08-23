@@ -2,6 +2,7 @@
 
 return array (
 
-    'directory' => ''
+    'directory' => '',
+    'directory-depth' => '0'
 
 );
