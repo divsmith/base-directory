@@ -12,6 +12,6 @@ $finder->directories()->in(__DIR__. '/' . $config['directory'])->exclude('vendor
 
 foreach($finder as $directory)
 {
-    var_dump($directory);
+    echo "<h1><a href=\"/{$directory->getRelativePathname()}/public/index.php\">{$directory->getRelativePathname()}</a></h1>";
 }
 
