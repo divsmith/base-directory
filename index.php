@@ -7,8 +7,8 @@ use Symfony\Component\Finder\Finder;
 $finder = new Finder();
 $config = include 'config.php';
 
-$finder->depth('== ' . $config['directory-depth']);
-$finder->directories()->in(__DIR__. '/' . $config['directory'])->exclude('vendor');
+$finder->depth('== ' . $config['root-depth']);
+$finder->directories()->in(__DIR__. '/' . $config['root-path'])->exclude('vendor');
 
 foreach($finder as $directory)
 {
