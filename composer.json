@@ -1,6 +1,5 @@
 {
 	"require": {
-		"symfony/finder": "2.5.*",
-		"symfony/config": "2.5.*"
+		"symfony/finder": "2.5.*"
 	}
 }
